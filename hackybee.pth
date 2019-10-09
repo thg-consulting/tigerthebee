@@ -1,0 +1,7 @@
+try:
+    import sys
+    import tigerthebee
+except ImportError:
+    pass
+else:
+    sys.modules["beefore.checks.inspectortiger"] = tigerthebee
