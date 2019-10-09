@@ -36,13 +36,14 @@ class PTHBasedInstaller(install):
 
 setup(
     name="tigerthebee",
-    version="0.1.0a2",
+    version="0.1.3",
     description="Beefore plugin for Inspector Tiger",
     author="thg",
     author_email="isidentical@gmail.com",
-    url="https://github.com/thg/tigerthebee",
+    url="https://github.com/thg-consulting/tigerthebee",
     py_modules=["tigerthebee"],
     cmdclass={"install": PTHBasedInstaller},
+    intall_requires=["inspectortiger"],
     long_description=long_description,
     long_description_content_type="text/markdown",
 )
