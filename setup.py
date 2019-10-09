@@ -36,7 +36,7 @@ class PTHBasedInstaller(install):
 
 setup(
     name="tigerthebee",
-    version="0.1.0a0",
+    version="0.1.0a2",
     description="Beefore plugin for Inspector Tiger",
     author="thg",
     author_email="isidentical@gmail.com",
